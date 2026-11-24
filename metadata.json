@@ -1,0 +1,6 @@
+{
+  "name": "AgriLink - Direct Agricultural Marketplace & Traceability",
+  "description": "Connecting farmers and FPOs directly with retailers, restaurants, and institutional buyers with batch traceability, logistics coordination, and AI demand insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
