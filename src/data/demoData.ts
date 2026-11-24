@@ -7,6 +7,9 @@ import {
   DemandForecast,
   AnomalyAlert
 } from '../types';
+import tomatoesImg from '../assets/images/produce_heirloom_tomatoes_1791795058375.jpg';
+import mangoesImg from '../assets/images/produce_alphonso_mangoes_1791795071713.jpg';
+import heroFarmImg from '../assets/images/hero_agrilink_farm_1791795043822.jpg';
 
 export const INITIAL_LISTINGS: ProduceListing[] = [
   {
@@ -25,7 +28,7 @@ export const INITIAL_LISTINGS: ProduceListing[] = [
     shelfLifeDays: 8,
     batchId: 'BATCH-2026-TOM-042',
     qualityGrade: 'Grade A (Premium Retail)',
-    imageUrl: '/src/assets/images/produce_heirloom_tomatoes_1791795058375.jpg',
+    imageUrl: tomatoesImg,
     description: 'Crisp, hand-sorted vine tomatoes with uniform red brix rating > 5.2. Pre-cooled within 90 minutes of picking.',
     certification: 'GlobalGAP & Zero-Residue Certified',
     isVerified: true,
@@ -47,7 +50,7 @@ export const INITIAL_LISTINGS: ProduceListing[] = [
     shelfLifeDays: 14,
     batchId: 'BATCH-2026-MNG-108',
     qualityGrade: 'Grade A (Export)',
-    imageUrl: '/src/assets/images/produce_alphonso_mangoes_1791795071713.jpg',
+    imageUrl: mangoesImg,
     description: 'Authentic coastal GI-tagged Alphonso mangoes. Tree-ripened naturally with hay packing, free from calcium carbide.',
     certification: 'APEDA Phytosanitary & GI Tagged',
     isVerified: true,
@@ -69,7 +72,7 @@ export const INITIAL_LISTINGS: ProduceListing[] = [
     shelfLifeDays: 6,
     batchId: 'BATCH-2026-LET-319',
     qualityGrade: 'Organic Certified',
-    imageUrl: '/src/assets/images/hero_agrilink_farm_1791795043822.jpg',
+    imageUrl: heroFarmImg,
     description: 'Clean room hydroponic iceberg lettuce. Washed in ozonated water, crisp texture ideal for quick-service restaurant chains.',
     certification: 'NPOP Organic / Pesticide Residue Free',
     isVerified: true,

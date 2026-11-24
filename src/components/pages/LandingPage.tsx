@@ -2,6 +2,7 @@ import React from 'react';
 import { useApp } from '../../context/AppContext';
 import { PageHeader } from '../common/PageHeader';
 import { DemoNotice } from '../common/DemoNotice';
+import heroFarmImg from '../../assets/images/hero_agrilink_farm_1791795043822.jpg';
 import {
   ArrowRight,
   ShieldCheck,
@@ -205,7 +206,7 @@ export const LandingPage: React.FC = () => {
 
           <div className="lg:col-span-5 h-72 lg:h-full relative overflow-hidden bg-stone-100">
             <img
-              src="/src/assets/images/hero_agrilink_farm_1791795043822.jpg"
+              src={heroFarmImg}
               alt="Harvest collection at cooperative farm cluster"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"

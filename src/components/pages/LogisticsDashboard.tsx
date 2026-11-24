@@ -4,6 +4,7 @@ import { COLLECTION_CENTRES, VEHICLE_TRIPS } from '../../data/demoData';
 import { VehicleTrip } from '../../types';
 import { PageHeader } from '../common/PageHeader';
 import { DemoNotice } from '../common/DemoNotice';
+import logisticsHubImg from '../../assets/images/logistics_farm_hub_1791795082974.jpg';
 import {
   Truck,
   Thermometer,
@@ -104,7 +105,7 @@ export const LogisticsDashboard: React.FC = () => {
           </div>
           <div className="lg:col-span-5 h-56 lg:h-full">
             <img
-              src="/src/assets/images/logistics_farm_hub_1791795082974.jpg"
+              src={logisticsHubImg}
               alt="Cold aggregation logistics center"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
